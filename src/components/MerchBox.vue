@@ -14,7 +14,7 @@
         <div><a href="#">SUBSCRIPTION</a></div>
       </li>
       <li class="d-flex align-items-center">
-        <img src="@/assets/img/buy-comics-shop-locator.png" alt="" />
+        <img id="locator-logo" src="@/assets/img/buy-comics-shop-locator.png" alt="" />
         <div><a href="#">COMIC SHOP LOCATION</a></div>
       </li>
       <li class="d-flex align-items-center">

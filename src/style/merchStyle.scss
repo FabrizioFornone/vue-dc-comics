@@ -1,7 +1,7 @@
 @import "@/style/variabiles.scss";
 
 .merch-container {
-  background-color: #5ea8f2;
+  background-color: $azure-color;
 
   ul {
     li {
@@ -17,8 +17,12 @@
         padding: 0 12px;
       }
 
+      #locator-logo {
+        width: 33px;
+      }
+
       #visa-logo {
-        width: 50px;
+        width: 53px;
       }
 
       a {

@@ -1,3 +1,5 @@
+@import "@/style/variabiles.scss";
+
 header {
   height: 80px;
   margin-top: 10px;
@@ -8,13 +10,16 @@ header {
 
   ul {
     li {
-      padding: 12px 10px;
+      padding: 20px 10px;
       font-size: 12px;
       border-bottom: 3px solid transparent;
       &:hover {
-        color: #5ea8f2;
-        border-bottom: 3px solid #5ea8f2;
+        color: $azure-color;
+        border-bottom: 3px solid $azure-color;
         // ghost div todo
+      }
+      a {
+        color: $dark-color;
       }
     }
   }
