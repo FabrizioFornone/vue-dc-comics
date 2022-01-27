@@ -1,12 +1,32 @@
+@import "@/style/variabiles.scss";
+
 footer {
-  padding: 30px 0;
   background: url("../assets/img/footer-bg.jpg");
   background-size: cover;
+
+  h3 {
+    color: $text-white;
+    padding: 5px 0;
+  }
+
+  .list-container {
+    padding: 25px 0;
+
+    > div {
+      padding: 0 20px;
+
+      li {
+        color: $text-secondary-grey;
+        padding: 3px 0;
+        font-size: 12px;
+      }
+    }
+  }
 
   .dc-logo-bg {
     background: url("../assets/img/dc-logo-bg.png") center center;
     background-size: cover;
-    width: 550px;
+    width: 500px;
     height: 330px;
   }
 }

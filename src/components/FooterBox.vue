@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="container d-flex justify-content-between">
-      <div class="d-flex">
+      <div class="d-flex list-container">
         <div>
           <h3>DC Comics</h3>
           <ul>
