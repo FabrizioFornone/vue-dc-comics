@@ -1,23 +1,23 @@
 <template>
-  <div class="merch-container d-flex">
+  <div class="merch-container d-flex justify-content-center">
     <ul class="d-flex">
-      <li>
+      <li class="d-flex align-items-center">
         <img src="@/assets/img/buy-comics-digital-comics.png" alt="" />
         <div><a href="#">DIGITAL COMICS</a></div>
       </li>
-      <li>
+      <li class="d-flex align-items-center">
         <img src="@/assets/img/buy-comics-merchandise.png" alt="" />
         <div><a href="#">DC MERCHANDISE</a></div>
       </li>
-      <li>
+      <li class="d-flex align-items-center">
         <img src="@/assets/img/buy-comics-subscriptions.png" alt="" />
         <div><a href="#">SUBSCRIPTION</a></div>
       </li>
-      <li>
+      <li class="d-flex align-items-center">
         <img src="@/assets/img/buy-comics-shop-locator.png" alt="" />
         <div><a href="#">COMIC SHOP LOCATION</a></div>
       </li>
-      <li>
+      <li class="d-flex align-items-center">
         <img id="visa-logo" src="@/assets/img/buy-dc-power-visa.svg" alt="" />
         <div><a href="#">DC POWER VISA</a></div>
       </li>
