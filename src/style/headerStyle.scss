@@ -9,17 +9,20 @@ header {
   }
 
   ul {
+    height: 100%;
     li {
-      padding: 20px 10px;
+      padding: 0 10px;
       font-size: 12px;
+      height: 100%;
       border-bottom: 3px solid transparent;
+
       &:hover {
-        color: $azure-color;
         border-bottom: 3px solid $azure-color;
-        // ghost div todo
       }
+
       a {
         color: $dark-color;
+        display: inline-block;
       }
     }
   }

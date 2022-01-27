@@ -4,16 +4,16 @@
       <img src="@/assets/img/dc-logo.png" alt="" />
     </div>
     <ul class="d-flex">
-      <li><a href="#">CHARACTERS</a></li>
-      <li><a href="#">COMICS</a></li>
-      <li><a href="#">MOVIES</a></li>
-      <li><a href="#">TV</a></li>
-      <li><a href="#">GAMES</a></li>
-      <li><a href="#">COLLECTIBLES</a></li>
-      <li><a href="#">VIDEOS</a></li>
-      <li><a href="#">FANS</a></li>
-      <li><a href="#">NEWS</a></li>
-      <li><a href="#">SHOP</a></li>
+      <li class="d-flex align-items-center"><a href="#">CHARACTERS</a></li>
+      <li class="d-flex align-items-center"><a href="#">COMICS</a></li>
+      <li class="d-flex align-items-center"><a href="#">MOVIES</a></li>
+      <li class="d-flex align-items-center"><a href="#">TV</a></li>
+      <li class="d-flex align-items-center"><a href="#">GAMES</a></li>
+      <li class="d-flex align-items-center"><a href="#">COLLECTIBLES</a></li>
+      <li class="d-flex align-items-center"><a href="#">VIDEOS</a></li>
+      <li class="d-flex align-items-center"><a href="#">FANS</a></li>
+      <li class="d-flex align-items-center"><a href="#">NEWS</a></li>
+      <li class="d-flex align-items-center"><a href="#">SHOP</a></li>
     </ul>
   </header>
 </template>
