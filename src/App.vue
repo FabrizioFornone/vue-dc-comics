@@ -4,6 +4,7 @@
     <main-box />
     <merch-box />
     <footer-box />
+    <second-footer-box />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HeaderBox from "./components/HeaderBox.vue";
 import MainBox from "./components/MainBox.vue";
 import MerchBox from "./components/MerchBox.vue";
 import FooterBox from "./components/FooterBox.vue";
+import SecondFooterBox from "./components/SecondFooterBox.vue";
 export default {
   name: "App",
   components: {
@@ -19,6 +21,7 @@ export default {
     MainBox,
     MerchBox,
     FooterBox,
+    SecondFooterBox,
   },
 };
 </script>
