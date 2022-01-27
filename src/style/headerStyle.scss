@@ -1,6 +1,6 @@
 header {
   height: 80px;
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
   margin-top: 10px;
   display: flex;
@@ -17,11 +17,12 @@ header {
 
     li {
       padding: 12px 10px;
-      font-size: 13px;
+      font-size: 12px;
       border-bottom: 3px solid transparent;
       &:hover {
         color: #5ea8f2;
         border-bottom: 3px solid #5ea8f2;
+        // ghost div todo
       }
     }
   }
