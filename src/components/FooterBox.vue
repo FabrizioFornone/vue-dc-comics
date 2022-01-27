@@ -1,5 +1,5 @@
 <template>
-  <footer class="d-flex">
+  <footer class="d-flex container">
     <div>
       <h3>DC Comics</h3>
       <ul>
