@@ -1,5 +1,5 @@
 <template>
-  <div class="merch-container d-flex justify-content-center">
+  <div class="merch-container d-flex">
     <ul class="d-flex">
       <li class="d-flex align-items-center">
         <img src="@/assets/img/buy-comics-digital-comics.png" alt="" />
