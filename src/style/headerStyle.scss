@@ -3,18 +3,12 @@ header {
   width: 1200px;
   margin: 0 auto;
   margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
   img {
     width: 70%;
   }
 
   ul {
-    display: flex;
-    list-style: none;
-
     li {
       padding: 12px 10px;
       font-size: 12px;

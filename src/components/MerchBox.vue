@@ -1,6 +1,6 @@
 <template>
-  <div class="merch-container">
-    <ul>
+  <div class="merch-container d-flex">
+    <ul class="d-flex">
       <li>
         <img src="@/assets/img/buy-comics-digital-comics.png" alt="" />
         <div><a href="#">DIGITAL COMICS</a></div>
