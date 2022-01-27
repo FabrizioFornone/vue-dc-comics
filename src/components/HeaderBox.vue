@@ -4,6 +4,7 @@
       <img src="@/assets/img/dc-logo.png" alt="" />
     </div>
     <ul class="d-flex">
+      <!-- soluzione provvisoria x il ghost div da implementare -->
       <li class="d-flex align-items-center"><a href="#">CHARACTERS</a></li>
       <li class="d-flex align-items-center"><a href="#">COMICS</a></li>
       <li class="d-flex align-items-center"><a href="#">MOVIES</a></li>
