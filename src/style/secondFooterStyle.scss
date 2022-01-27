@@ -2,4 +2,27 @@
 
 footer {
   background-color: $dark-color;
+  padding: 30px 0;
+
+  button {
+    padding: 8px;
+    background-color: $dark-color;
+    border: 1px solid $azure-color;
+
+    a {
+      color: $text-white;
+    }
+  }
+
+  h3 {
+    padding: 0 20px;
+
+    a {
+      color: $azure-color;
+    }
+  }
+
+  img {
+    margin: 0 8px;
+  }
 }
