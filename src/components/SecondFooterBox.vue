@@ -1,6 +1,7 @@
 <template>
   <footer>
-      
+    <div class="container"></div>
+    <button><a href="#">SIGN-UP NOW!</a></button>
   </footer>
 </template>
 
