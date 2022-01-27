@@ -16,9 +16,12 @@ footer {
       padding: 0 20px;
 
       li {
-        color: $text-secondary-grey;
         padding: 3px 0;
         font-size: 12px;
+
+        a {
+          color: $text-secondary-grey;
+        }
       }
     }
   }
