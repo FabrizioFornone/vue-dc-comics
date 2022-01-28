@@ -5,22 +5,19 @@
     </div>
     <ul class="d-flex">
       <!-- soluzione provvisoria x il ghost div da implementare -->
-      <li class="d-flex align-items-center"><a href="#">CHARACTERS</a></li>
-      <li class="d-flex align-items-center"><a href="#">COMICS</a></li>
-      <li class="d-flex align-items-center"><a href="#">MOVIES</a></li>
-      <li class="d-flex align-items-center"><a href="#">TV</a></li>
-      <li class="d-flex align-items-center"><a href="#">GAMES</a></li>
-      <li class="d-flex align-items-center"><a href="#">COLLECTIBLES</a></li>
-      <li class="d-flex align-items-center"><a href="#">VIDEOS</a></li>
-      <li class="d-flex align-items-center"><a href="#">FANS</a></li>
-      <li class="d-flex align-items-center"><a href="#">NEWS</a></li>
-      <li class="d-flex align-items-center"><a href="#">SHOP</a></li>
+      <li class="d-flex align-items-center" v-for="menuItem in menu" :key="menuItem.id">
+          <a href="menuItem.url">{{ menuItem.label }}</a>
+        </li>
     </ul>
   </header>
 </template>
 
 <script>
-export default {};
+export default {
+   props: {
+    menu: Array, 
+  },
+};
 </script>
 
 <style lang="scss" scoped>
