@@ -1,7 +1,7 @@
 <template>
   <main>
     <jumbo-box />
-    <card-box />
+    <card-box :cardProps="cardList" />
   </main>
 </template>
 
@@ -10,6 +10,9 @@ import JumboBox from "./JumboBox.vue";
 import CardBox from "./CardsBox.vue";
 export default {
   components: { JumboBox, CardBox },
+  props: {
+    cardList: Array,
+  },
 };
 </script>
 

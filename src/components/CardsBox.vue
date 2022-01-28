@@ -1,12 +1,18 @@
 <template>
-<div class="card-box">
-    
-    
-</div>
+  <div class="card-box">
+    <div v-for="(card, index) in cardProps" :key="index">
+      <img :src="card.thumb" alt="" />
+      <h3>{{ card.series }}</h3>
+    </div>
+  </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    cardProps: Array,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
