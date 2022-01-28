@@ -1,0 +1,21 @@
+@import "@/style/variabiles.scss";
+
+h2 {
+  color: $text-white;
+  background-color: $azure-color;
+  padding: 4px 11px;
+  position: absolute;
+  top: -2.5%;
+  left: 11.5%;
+}
+
+.card-box {
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+.single-card {
+  margin: 0 30px;
+  width: calc(100% / 6 - 60px);
+  color: $text-white;
+  cursor: pointer;
+}
