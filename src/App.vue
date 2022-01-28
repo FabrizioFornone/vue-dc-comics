@@ -2,7 +2,6 @@
   <div id="app">
     <header-box :menu="nav" />
     <main-box :cardList="cards" />
-    <merch-box />
     <footer-box />
     <second-footer-box />
   </div>
@@ -11,7 +10,6 @@
 <script>
 import HeaderBox from "./components/HeaderBox.vue";
 import MainBox from "./components/MainBox.vue";
-import MerchBox from "./components/MerchBox.vue";
 import FooterBox from "./components/FooterBox.vue";
 import SecondFooterBox from "./components/SecondFooterBox.vue";
 export default {
@@ -19,7 +17,6 @@ export default {
   components: {
     HeaderBox,
     MainBox,
-    MerchBox,
     FooterBox,
     SecondFooterBox,
   },

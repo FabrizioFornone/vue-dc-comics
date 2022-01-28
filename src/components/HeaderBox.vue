@@ -4,7 +4,6 @@
       <img src="@/assets/img/dc-logo.png" alt="" />
     </div>
     <ul class="d-flex">
-      <!-- soluzione provvisoria x il ghost div da implementare -->
       <li class="d-flex align-items-center" v-for="menuItem in menu" :key="menuItem.id">
           <a href="menuItem.url">{{ menuItem.label }}</a>
         </li>
