@@ -17,15 +17,24 @@ h2 {
   left: 11.5%;
 }
 
-.card-box {
+.card-row {
   flex-wrap: wrap;
   padding: 20px 0;
+  color: $text-white;
 
-  .single-card {
-    margin: 20px 30px;
+  .card-box {
     width: calc(100% / 6 - 60px);
-    color: $text-white;
-    cursor: pointer;
+    margin: 20px 30px;
+
+    .single-card {
+      height: 150px;
+      overflow: hidden;
+      margin-bottom: 10px;
+      
+      img {
+        width: 100%;
+      }
+    }
   }
 }
 

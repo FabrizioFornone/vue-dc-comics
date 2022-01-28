@@ -1,10 +1,14 @@
 <template>
   <div class="relative-parent">
     <h2>Current Series</h2>
-    <div class="card-box container d-flex">
-      <div class="single-card" v-for="(card, index) in cardProps" :key="index">
-        <img :src="card.thumb" alt="" />
-        <h3>{{ card.series }}</h3>
+    <div class="card-row container d-flex">
+      <div class="card-box" v-for="(card, index) in cardProps" :key="index">
+        <div class="single-card">
+          <a href="#">
+            <img :src="card.thumb" alt="" />
+          </a>
+        </div>
+          <h4>{{ card.series }}</h4>
       </div>
     </div>
     <div class="d-flex justify-content-center">
