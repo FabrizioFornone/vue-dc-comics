@@ -9,6 +9,10 @@ footer {
     background-color: $dark-color;
     border: 1px solid $azure-color;
 
+    &:hover a {
+      color: $azure-color;
+    }
+
     a {
       color: $text-white;
     }

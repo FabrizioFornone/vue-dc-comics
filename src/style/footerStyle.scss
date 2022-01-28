@@ -19,6 +19,10 @@ footer {
         padding: 3px 0;
         font-size: 12px;
 
+        &:hover a {
+          color: $azure-color;
+        }
+
         a {
           color: $text-secondary-grey;
         }

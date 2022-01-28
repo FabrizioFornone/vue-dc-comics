@@ -30,7 +30,7 @@ h2 {
       height: 150px;
       overflow: hidden;
       margin-bottom: 10px;
-      
+
       img {
         width: 100%;
       }
@@ -41,4 +41,8 @@ h2 {
 button {
   padding: 7px 50px;
   margin-bottom: 20px;
+
+  &:hover a {
+    color: $text-secondary-grey;
+  }
 }
