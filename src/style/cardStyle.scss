@@ -1,8 +1,16 @@
 @import "@/style/variabiles.scss";
 
-h2 {
+h2,
+a {
   color: $text-white;
+}
+
+h2,
+button {
   background-color: $azure-color;
+}
+
+h2 {
   padding: 4px 11px;
   position: absolute;
   top: -2.5%;
@@ -11,11 +19,17 @@ h2 {
 
 .card-box {
   flex-wrap: wrap;
-  padding: 50px 0;
+  padding: 20px 0;
+
+  .single-card {
+    margin: 20px 30px;
+    width: calc(100% / 6 - 60px);
+    color: $text-white;
+    cursor: pointer;
+  }
 }
-.single-card {
-  margin: 0 30px;
-  width: calc(100% / 6 - 60px);
-  color: $text-white;
-  cursor: pointer;
+
+button {
+  padding: 7px 50px;
+  margin-bottom: 20px;
 }

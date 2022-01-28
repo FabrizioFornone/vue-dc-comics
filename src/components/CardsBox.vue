@@ -7,6 +7,9 @@
         <h3>{{ card.series }}</h3>
       </div>
     </div>
+    <div class="d-flex justify-content-center">
+      <button><a href="#">LOAD MORE</a></button>
+    </div>
   </div>
 </template>
 
