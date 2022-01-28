@@ -15,6 +15,10 @@
 
       > div {
         padding: 0 12px;
+
+        a {
+          color: $text-white;
+        }
       }
 
       #locator-logo {
@@ -23,10 +27,6 @@
 
       #visa-logo {
         width: 53px;
-      }
-
-      a {
-        color: $text-white;
       }
     }
   }
