@@ -15,10 +15,13 @@ header {
       font-size: 12px;
       height: 100%;
       border-bottom: 3px solid transparent;
-      cursor: pointer;
 
       &:hover {
         border-bottom: 3px solid $azure-color;
+      }
+
+      &:hover a {
+        color: $azure-color;
       }
 
       a {

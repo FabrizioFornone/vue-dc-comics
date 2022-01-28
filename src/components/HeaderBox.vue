@@ -3,7 +3,7 @@
     <div>
       <img src="@/assets/img/dc-logo.png" alt="" />
     </div>
-    <ul class="d-flex">
+    <ul class="d-flex pointer">
       <li class="d-flex align-items-center" v-for="menuItem in menu" :key="menuItem.id">
           <a href="menuItem.url">{{ menuItem.label }}</a>
         </li>
