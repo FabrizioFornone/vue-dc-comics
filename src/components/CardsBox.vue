@@ -2,7 +2,7 @@
   <div class="relative-parent">
     <h2>Current Series</h2>
     <div class="card-row container d-flex">
-      <div class="card-box" v-for="(card, index) in cardProps" :key="index">
+      <div class="cards-box" v-for="(card, index) in cardProps" :key="index">
         <div class="single-card">
           <a href="#">
             <img :src="card.thumb" alt="" />

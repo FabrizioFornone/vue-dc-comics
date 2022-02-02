@@ -1,18 +1,18 @@
 <template>
   <main>
     <jumbo-box />
-    <card-box :cardProps="cardList" />
+    <cards-box :cardProps="cardList" />
     <merch-box />
   </main>
 </template>
 
 <script>
 import JumboBox from "./JumboBox.vue";
-import CardBox from "./CardsBox.vue";
+import CardsBox from "./CardsBox.vue";
 import MerchBox from "./MerchBox.vue";
 
 export default {
-  components: { JumboBox, CardBox, MerchBox },
+  components: { JumboBox, CardsBox, MerchBox },
   props: {
     cardList: Array,
   },
